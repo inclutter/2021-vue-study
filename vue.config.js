@@ -13,6 +13,5 @@ module.exports = {
         //     subcal: fs.readFileSync(path.join(__dirname, 'data/cert/subca1_www.inclutter.com.crt')),
         // },
         https: true,
-        host: 'inclutter.com',
     }
 };
