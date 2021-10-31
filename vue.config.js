@@ -12,6 +12,6 @@ module.exports = {
         //     csr: fs.readFileSync(path.join(__dirname, 'data/cert/csr_www.inclutter.com.txt')),
         //     subcal: fs.readFileSync(path.join(__dirname, 'data/cert/subca1_www.inclutter.com.crt')),
         // },
-        port:8082
+        https: false
     }
 };
