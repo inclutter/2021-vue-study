@@ -14,6 +14,5 @@ module.exports = {
         // },
         https: true,
         host: 'inclutter.com',
-        port: 8082
     }
 };
