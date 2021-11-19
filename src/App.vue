@@ -20,6 +20,15 @@
     >
       <v-list>
         <v-list-item>
+          <v-btn
+              color="blue"
+              elevation="2"
+              rounded
+              href="http://inclutter.com:8081"
+          >Jenkins</v-btn>
+        </v-list-item>
+
+        <v-list-item>
           <v-list-item-icon>
             <v-icon>mdi-home</v-icon>
           </v-list-item-icon>
@@ -102,6 +111,10 @@ export default {
 
   data: () => ({
     drawer: false,
+    sites: [
+      ['Jenkins', 'mdi-account-multiple-outline'],
+      ['Notion', 'mdi-account-circle'],
+    ],
     admins: [
       ['Management', 'mdi-account-multiple-outline'],
       ['Settings', 'mdi-cog-outline'],
