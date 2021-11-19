@@ -1,20 +1,54 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <div>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>inclutter</title>
+    <meta name="description" content="개발공부"/>
+    <meta name="keywords" content="Online web study"/>
+    <meta name="author" content="Bread Kang"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!-- user-scalable 을 사용하지 않는 디바이스를 위해, maximun-scale/minimum-scale 설정을 하는 것입니다-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
-    </div>
-    <!-- built files will be auto injected -->
-  </body>
+    <!-- Open Graph (Facebook, Linkedin)-->
+    <!-- https://ourcodeworld.com/public-media/articles/articleocw-56d1a6901b773.png -->
+    <meta property="og:type" content="website"/>
+    <!-- https://ogp.me/#types -->
+    <meta property="og:title" content="inclutter"/>
+    <meta property="og:description" content="인클루터 웹 사이트 공부"/>
+    <meta property="og:image" content="img/fun-coding-mark.png"/>
+    <meta property="og:url" content="https://inclutter.com"/>
+    <meta property="og:site_name" content="inclutter"/>
+
+    <!-- twitter card (Twitter)-->
+    <!-- https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/twitter-cards-implementation-with-websites/Images/summary_card_tweet.png -->
+    <meta name="twitter:card" content="summary"/>
+    <!-- card 종류: summary, photo, player -->
+    <meta name="twitter:title" content="inclutter"/>
+    <meta name="twitter:description" content="인클루터 웹 사이트 공부"/>
+    <meta name="twitter:image" content="img/fun-coding-mark.png"/>
+    <meta name="twitter:url" content="https://inclutter.com"/>
+    <meta name="twitter:creator" content="Bread Kang"/>
+
+    <!-- 일반적인 fabicon 설정 -->
+    <link rel="icon" href="img/fun-coding.ico"/>
+    <!-- 아이폰용 fabicon 설정 -->
+    <link rel="apple-touch-icon" href="img/fun-coding.ico"/>
+    <!-- 인터넷 익스플로어용 fabicon 설정 -->
+    <link rel="shortcut icon" tyle="image/x-icon" href="img/fun-coding.ico"/>
+
+    <!-- CSS Reset(1), style.css, 아이콘 폰트, 웹페이지 사용 폰트 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <!-- https://fontawesome.com/start -->
+    <script src="https://kit.fontawesome.com/f1def33959.js" crossorigin="anonymous"></script>
+    <!-- Spoca Han Sans Neo: https://spoqa.github.io/spoqa-han-sans/ko-KR/ -->
+    <link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+</head>
+<body>
+    <div id="app"></div>
+</body>
 </html>
