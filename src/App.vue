@@ -111,10 +111,6 @@ export default {
 
   data: () => ({
     drawer: false,
-    sites: [
-      ['Jenkins', 'mdi-account-multiple-outline'],
-      ['Notion', 'mdi-account-circle'],
-    ],
     admins: [
       ['Management', 'mdi-account-multiple-outline'],
       ['Settings', 'mdi-cog-outline'],
